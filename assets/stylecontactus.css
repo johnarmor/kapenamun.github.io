@@ -1,0 +1,195 @@
+body {
+	background-image: url("../images/blackboard.jpg");
+	height: 125vh;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	background-size: contain;
+	padding-top: 130px;
+	color: #FFFFFF;
+	font-family: 'Century Gothic';
+  }
+  
+  .nav-bar {
+	z-index: 999;
+	border-bottom: 1px solid white;
+	color: white;
+	margin: 20px;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 5px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 30px 80px;
+	/* Add background image and styling for the navbar */
+	background-image: url("../images/blackboard.jpg");
+	background-size: cover; /* You may need to adjust this depending on your image */
+	background-repeat: no-repeat;
+	background-position: center;
+  }
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: grey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: grey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.menu li {
+	list-style-type: none;
+	float: left;
+	margin: 0 10px;
+}
+
+.menu a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.logo {
+	position: absolute;
+    top: 130px;
+    right: 550px;
+	height: 300px;
+	width: 300px;
+	
+}
+h4{
+	position: relative;
+	font-family: Times New Roman;
+	top: 300px;
+	font-size: 20px;
+	right: 10px;
+   
+}
+.fb{
+	position: absolute;
+    top: 600px;
+    right: 900px;
+	height: 50px;
+	width: 50px;
+}
+.email{
+	position: absolute;
+    top: 600px;
+    right: 500px;
+	height: 50px;
+	width: 50px;
+}
+.info{
+	position: absolute;
+    top: 613px;
+    right: 840px;
+	height: 50px;
+	width: 50px;
+}
+.info2{
+	position: absolute;
+    top: 613px;
+    right: 440px;
+	height: 50px;
+	width: 50px;
+}
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
+
+.credit{
+	position: absolute;
+	top: 500px;
+}
+.calendar{
+	position: absolute;
+	top: 750px;
+}
+.bottomtxt{
+	position: absolute;
+	top: 750px;
+	left: 900px;
+	border-bottom: 1px solid white;
+	
+	
+}
+.bottomtxt2{
+	position: absolute;
+	top: 850px;
+	left: 900px;
+	
+}
+.point button{
+			font-size: 20px;
+			height: 40px;
+			color: #fff;
+			background: crimson;
+			padding: 5px 10px;
+			border: none;
+			border-radius: 10px;
+			transition: .4s ease;
+			cursor: pointer;
+			position: absolute;
+			left: 100px;
+}
+.point button:hover{
+				background: none;
+				border: 2px solid crimson
+}
+

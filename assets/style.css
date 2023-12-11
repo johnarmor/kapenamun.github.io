@@ -1,0 +1,144 @@
+body {
+    background-image: url("../images/blackboard.jpg");
+    height: 125vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background-size: contain;
+    padding-top: 130px;
+    color: #FFFFFF;
+    font-family: 'Century Gothic';
+}
+
+.nav-bar {
+    z-index: 999;
+    border-bottom: 1px solid white;
+    color: white;
+    margin: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    /* Add background image and styling for the navbar */
+    background-image: url("../images/blackboard.jpg");
+    background-size: cover; /* You may need to adjust this depending on your image */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.menu li {
+    list-style-type: none;
+    float: left;
+    margin: 0 10px;
+}
+
+.menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Header start */
+.header {
+	background-image: url("../images/header.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 300px;
+}
+
+.header img {
+	width: 300px;
+
+
+
+}
+
+/* Header End */
+
+/* Hompage Start */
+.home {
+	width: 100%;
+	float: left;
+	padding: 25px 50px;
+}
+.home img {
+	width:400px;
+	padding-left: 100px;
+}
+
+.column {
+	float:  left;
+}
+
+.column-left {
+ 	width: 60%;
+}
+
+.column-right {
+	width: 40%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Homepage End */
+
+/* Best Sellers Start */
+.best_sellers {
+	margin: 0 10px;
+}
+
+.best_sellers h1 {
+	text-decoration: underline;
+}
+
+.best_sellers img {
+	height: 200px;
+}
+.star_color_yellow {
+	color: YELLOW;
+}
+
+.best_content {
+  margin-left: 10px;
+  width: 300px;
+  padding: 10px;
+}
+
+.best_content p {
+	font-size:  20px;
+}
+
+.point button{
+			font-size: 20px;
+			height: 40px;
+			color: #fff;
+			background: crimson;
+			padding: 5px 10px;
+			border: none;
+			border-radius: 10px;
+			transition: .4s ease;
+			cursor: pointer;
+			position: absolute;
+		    left: 1040px;
+		    top: 1550px;
+
+}
+.point button:hover{
+				background: none;
+				border: 2px solid crimson
+}
+
+/* Best Sellers End */
+  
+
